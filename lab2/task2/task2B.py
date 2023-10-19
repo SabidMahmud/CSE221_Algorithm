@@ -1,4 +1,4 @@
-openfile = open('./input2.txt', 'r')
+openfile = open('./input2B.txt', 'r')
 readfile = openfile.readlines()
 outfile = open('./output2b.txt', 'w')
 n = [int(i) for i in readfile[1].split()]
