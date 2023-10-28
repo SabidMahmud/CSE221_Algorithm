@@ -24,4 +24,6 @@ openfile = open("./input5.txt", "r")
 readfile = openfile.readlines()
 array = [int(i) for i in readfile[1].split()]
 quickSort(array, 0, int(readfile[0])-1)
-print(array)
+# print(array)
+outfile = open("./output5.txt", "w")
+[outfile.writelines(f"{i} ") for i in array]
