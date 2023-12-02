@@ -43,3 +43,5 @@ for i in range(1,4):
         [outputfile.write(str(x)+" ") for x in order]
     else:
         outputfile.write("IMPOSSIBLE")
+    openfile.close()
+    outputfile.close()
